@@ -1,0 +1,55 @@
+.header {
+    background: url('../img/Earth-Hour.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.navbar {
+
+    img {
+        width: 100px;
+
+    }
+}
+
+.who_we_are {
+    margin-top: 20px;
+    max-width: 800px;
+
+    h2 {
+        font-weight: 700
+    }
+
+    p {
+        color: #808080
+    }
+}
+
+.search_images {
+    column-count: auto;
+    column-width: auto;
+
+    img {
+        height: 200px;
+        margin: 5px
+    }
+}
+
+iframe {
+    height: 100vh;
+    width: 100%;
+}
+
+.ytp-chrome-top {
+    opacity: 0;
+}
+
+.ytp-chrome-top .ytp-show-watch-later-title .ytp-share-button-visible .ytp-show-share-title .ytp-show-cards-title {
+    display: none !important
+}
