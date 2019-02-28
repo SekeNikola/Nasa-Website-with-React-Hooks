@@ -1,0 +1,16 @@
+input {
+    background: #8080801a;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    width: 400px;
+    outline: none
+}
+
+.btn {
+    background: transparent;
+
+    &:hover {
+        color: #b6b6b6b4;
+    }
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
 .header {
     background: url('../img/Earth-Hour.jpg');
     background-repeat: no-repeat;
@@ -7,16 +9,25 @@
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center
-}
+    align-items: center;
 
-.navbar {
+    .navbar {
+        img {
+            width: 100px;
+        }
+    }
 
-    img {
-        width: 100px;
-
+    h1 {
+        font-family: 'Audiowide', cursive;
     }
 }
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .who_we_are {
     margin-top: 20px;
