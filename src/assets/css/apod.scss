@@ -1,23 +1,23 @@
 .apod {
-    position: relative;
-    display: flex;
-    max-height: 1000px;
-    overflow: hidden;
+  position: relative;
+  display: flex;
+  max-height: 1000px;
+  overflow: hidden;
 
-    .apod-img {
-        width: 100%
-    }
+  .apod-img {
+    width: 100%;
+  }
 
-    img {
-        position: absolute;
-        left: 0;
-    }
+  img {
+    position: absolute;
+    left: 0;
+  }
 }
 
 .apod-description {
-    width: 500px;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.685);
-    padding: 20px;
-    z-index: 100;
+  width: 500px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.685);
+  padding: 20px;
+  z-index: 100;
 }

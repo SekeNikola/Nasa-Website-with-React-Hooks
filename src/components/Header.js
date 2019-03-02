@@ -109,7 +109,7 @@ const Header = () => {
         }}
       />
       <div className="header">
-        <div className="container fixed-top">
+        <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark ">
             <a className="navbar-brand" href="#">
               <img
@@ -168,6 +168,14 @@ const Header = () => {
         </div>
         <div className="header-title">
           <h1>Welcome Home, Earthling</h1>
+          <q>
+            <i>
+              The time will come when man will know even what is going on in the
+              other planets and perhaps be able to visit them.
+            </i>
+          </q>
+          <br />
+          <span>Henry Ford, Theosophist Magazine, February 1930</span>
         </div>
       </div>
       <div className="container text-center who_we_are">
@@ -177,7 +185,7 @@ const Header = () => {
           humankind. Thousands of people have been workng around the world - and
           off of it - for more than 50 years, finding answers. What's out there?
           what will we find? What can we learn there, or learn just by trying to
-          get there, that will make life better here on Earth?{" "}
+          get there, that will make life better here on Earth?
         </p>
       </div>
     </>

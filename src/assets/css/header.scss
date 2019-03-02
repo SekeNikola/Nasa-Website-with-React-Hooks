@@ -7,14 +7,20 @@
     background-position: center center;
     height: 100vh;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
     .navbar {
         img {
             width: 100px;
         }
+    }
+
+    .header-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
     }
 
     h1 {
@@ -42,17 +48,4 @@ canvas {
         height: 200px;
         margin: 5px
     }
-}
-
-iframe {
-    height: 100vh;
-    width: 100%;
-}
-
-.ytp-chrome-top {
-    opacity: 0;
-}
-
-.ytp-chrome-top .ytp-show-watch-later-title .ytp-share-button-visible .ytp-show-share-title .ytp-show-cards-title {
-    display: none !important
 }

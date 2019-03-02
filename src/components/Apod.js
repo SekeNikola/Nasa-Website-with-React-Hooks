@@ -4,7 +4,6 @@ import "../assets/css//apod.scss";
 
 const Apod = () => {
   const [data, setData] = useState("");
-
   useEffect(() => {
     axios
       .get(
@@ -12,8 +11,6 @@ const Apod = () => {
       )
       .then(result => setData(result.data));
   }, []);
-
-  console.log(data);
 
   return (
     <div className="container text-center mb-3">
