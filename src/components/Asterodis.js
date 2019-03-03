@@ -15,7 +15,7 @@ const Asterodis = () => {
   return (
     <div className="container text-center mt-5">
       <h2>Near Earth Objects</h2>
-
+      <p>These are Asteroids that are currently orbiting our Earth</p>
       <table className="table ">
         <thead>
           <tr>
