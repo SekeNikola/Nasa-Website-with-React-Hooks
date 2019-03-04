@@ -111,7 +111,7 @@ const Header = () => {
       <div className="header">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark ">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#home">
               <img
                 src={require("../assets/img/nasa-worm-logotype.png")}
                 alt=""
@@ -134,32 +134,32 @@ const Header = () => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                  <a className="nav-link" href="#">
-                    Mission <span className="sr-only">(current)</span>
+                <li className="nav-item">
+                  <a className="nav-link" href="#home">
+                    Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#potd">
+                    POTD
+                  </a>
+                </li>
+
+                <li className="nav-item">
+                  <a className="nav-link" href="#gallery">
                     Gallery
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Nasa TV
+                  <a className="nav-link" href="#objects">
+                    Near Earth Objects
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Downloads
-                  </a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    About
+                  <a className="nav-link" href="#live">
+                    Watch Live
                   </a>
                 </li>
               </ul>

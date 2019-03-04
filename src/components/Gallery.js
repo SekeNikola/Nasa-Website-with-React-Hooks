@@ -10,15 +10,19 @@ const Gallery = () => {
       .get(`https://images-assets.nasa.gov/popular.json`)
       .then(result => setData(result.data.collection.items));
   }, []);
-  const findImage = e => {
+
+  const findImage = () => {
     axios
       .get(`https://images-api.nasa.gov/search?q=${search}`)
-      .then(result => setData(result.data.collection.items));
+      .then(result => setData(result.data.collection.items))
+      .catch(error => {
+        console.log(error.result);
+      });
   };
   console.log(data);
 
   return (
-    <div className="container text-center">
+    <div className="container text-center mb-5 mt-5" id="gallery">
       <h2>Find Images</h2>
       <p>Search for images in our database</p>
       <input
@@ -38,13 +42,17 @@ const Gallery = () => {
       </button>
       <div
         className="search_images"
-        style={{ columnCount: "4", columnWidth: "150px" }}
+        style={{ columnCount: "5", columnWidth: "150px" }}
       >
         {data.map((item, i) => {
           if (i <= 16) {
             return (
-              <a href={item.links[0].href} key={item.data[0].nasa_id}>
-                <img className="img-fluid" src={item.links[0].href} alt="" />
+              <a href={item.links[0].href} key={item.links[0].href}>
+                <img
+                  className="img-fluid mb-3"
+                  src={item.links[0].href}
+                  alt=""
+                />
               </a>
             );
           }

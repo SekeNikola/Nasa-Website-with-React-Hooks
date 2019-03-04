@@ -13,7 +13,7 @@ const Asterodis = () => {
   }, []);
 
   return (
-    <div className="container text-center mt-5">
+    <div className="container text-center mb-5 mt-5" id="objects">
       <h2>Near Earth Objects</h2>
       <p>These are Asteroids that are currently orbiting our Earth</p>
       <table className="table ">
@@ -34,7 +34,6 @@ const Asterodis = () => {
                     {Math.round(
                       objects.estimated_diameter.meters.estimated_diameter_max
                     )}
-                    m
                   </td>
                   <td>
                     {objects.is_potentially_hazardous_asteroid ? "yes" : "no"}
@@ -44,7 +43,6 @@ const Asterodis = () => {
             })}
         </tbody>
       </table>
-      <tr />
     </div>
   );
 };

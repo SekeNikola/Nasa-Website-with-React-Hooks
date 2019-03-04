@@ -13,7 +13,7 @@ const Apod = () => {
   }, []);
 
   return (
-    <div className="container text-center mb-3">
+    <div id="potd" className="container text-center mb-5 mt-5">
       <h2>Photo Of the Day</h2>
       <div className="apod">
         <div className=" apod-img">

@@ -2,7 +2,7 @@ import React from "react";
 
 const LiveStream = () => {
   return (
-    <div className="container text-center">
+    <div className="container text-center mb-5 mt-5" id="live">
       <h2>Watch Live </h2>
       <p>
         Direct from America's space program to YouTube, watch NASA TV live
@@ -16,6 +16,7 @@ const LiveStream = () => {
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
+        title="Nasa Live Stream"
       />
     </div>
   );
