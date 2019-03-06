@@ -2,6 +2,21 @@
     background: url('../img/Night-Shuttle.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    height: 100vh;
+    background-position: -50px center;
+    transform: scale(1.2);
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+
+
+    .nav {
+        justify-content: center;
+        background: #1c1c1c;
+        width: 100vw;
+
+        a {
+            color: #fff;
+            margin: 10px
+        }
+    }
 }
