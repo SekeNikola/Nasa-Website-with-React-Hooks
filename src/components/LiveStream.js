@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../assets/css/live.scss";
 const LiveStream = () => {
   return (
     <div className="container text-center mb-5 mt-5" id="live">

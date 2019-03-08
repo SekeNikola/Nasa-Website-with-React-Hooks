@@ -39,3 +39,9 @@ canvas {
     margin-top: 20px;
     max-width: 800px;
 }
+
+@media only screen and (max-width: 600px) {
+    .header-title {
+        padding: 30px
+    }
+}

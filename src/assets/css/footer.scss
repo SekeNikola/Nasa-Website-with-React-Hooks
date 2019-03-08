@@ -20,3 +20,17 @@
         }
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+        background-position: center center;
+        transform: scale(1)
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        background-position: -420px center;
+        transform: scale(1)
+    }
+}
