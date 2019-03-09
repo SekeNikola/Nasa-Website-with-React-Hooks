@@ -19,7 +19,6 @@ const Gallery = () => {
         console.log(error.result);
       });
   };
-  console.log(data);
 
   return (
     <div className="container text-center mb-5 mt-5" id="gallery">
